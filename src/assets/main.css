@@ -1,0 +1,184 @@
+@import './base.css';
+
+/* Resets - by Vic */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Pokemon Classes - by Vic */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.poke-logo {
+  width: 20%;
+}
+
+.poke-logo img {
+  width: 180px;
+}
+
+.poke-header {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.poke-header .poke-wrapper .poke-item {
+  width: 16.6%;
+}
+
+.poke-header .poke-wrapper {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.poke-header .poke-nav {
+  width: 100%;
+}
+
+.poke-header .poke-nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.poke-header .poke-nav ul li {
+  width: 14.28%;
+  text-align: center;
+  
+}
+
+.poke-header .poke-nav ul li {
+  padding: 1rem 1rem 2rem;
+}
+
+.poke-header .poke-nav ul li:first-child {
+
+}
+
+.poke-header .poke-nav ul li:nth-child(2) {
+  border-bottom: 3px solid #E3350D;
+}
+
+.poke-header .poke-nav ul li:nth-child(3) {
+  border-bottom: 3px solid #ee6b2f;
+}
+
+.poke-header .poke-nav ul li:nth-child(4) {
+  border-bottom: 3px solid #e6bc2f;
+  
+}
+
+.poke-header .poke-nav ul li:nth-child(5) {
+  border-bottom: 3px solid #4dad5b;
+}
+
+.poke-header .poke-nav ul li:nth-child(6) {
+  border-bottom: 3px solid #30a7d7;
+}
+
+.poke-header .poke-nav ul li:nth-child(7) {
+  border-bottom: 3px solid #1b53ba;
+}
+
+.poke-card-link img {
+  width: 100%;
+}
+
+/* Clases especiales de Vitico - Skrrt */
+
+.kb-mg-top {
+  margin-top: 1rem;
+}
+
+.kb-mg-top-2 {
+  margin-top: 2rem;
+}
+
+.kb-mg-top-3 {
+  margin-top: 3rem;
+}
+
+.kb-blog-type-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kb-blog-type-grid .first {
+  width: 70%;
+}
+
+.kb-blog-type-grid .first ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.kb-blog-type-grid .first li:first-child {
+  width: 100%;
+}
+
+.kb-blog-type-grid .first li:nth-child(2), .kb-blog-type-grid .first li:nth-child(3) {
+  width: 50%;
+}
+
+.kb-blog-type-grid .second {
+  width: 30%;
+}
+
+.xpress-wrapper {
+  background-color: #000;
+}
+
+.xpress-main-title {
+  color: #c11928;
+}
+
+#app {
+  max-width: 1105px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(239 239 239 / 81%);
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  /* body {
+    display: flex;
+    place-items: center;
+  } */
+
+  #app {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem; */
+  }
+}
