@@ -1,6 +1,15 @@
 @import './base.css';
 
 /* Resets - by Vic */
+header {
+  width: 100%;
+  padding: 0;
+}
+
+header, main {
+  background-color: #fff;
+  color: #000;
+}
 
 ul {
   list-style: none;
@@ -91,6 +100,20 @@ body, html {
   border-bottom: 3px solid #1b53ba;
 }
 
+.poke-card-link {
+  background-color: #b01d22;
+}
+
+.poke-card-link a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.poke-card-link a div:nth-child(2) {
+  padding: 1rem 1rem 2rem;
+  height: 150px;
+}
+
 .poke-card-link img {
   width: 100%;
 }
@@ -109,6 +132,18 @@ body, html {
   margin-top: 3rem;
 }
 
+.kb-mg-bottom {
+  margin-bottom: 1rem;
+}
+
+.kb-mg-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+.kb-mg-bottom-3 {
+  margin-bottom: 3rem;
+}
+
 .kb-blog-type-grid {
   display: flex;
   flex-wrap: wrap;
@@ -116,6 +151,8 @@ body, html {
 
 .kb-blog-type-grid .first {
   width: 70%;
+  background-color: #fff;
+  padding: 1rem;
 }
 
 .kb-blog-type-grid .first ul {
@@ -134,6 +171,8 @@ body, html {
 
 .kb-blog-type-grid .second {
   width: 30%;
+  padding: 1rem 1rem 1rem 0;
+  background-color: #fff;
 }
 
 .xpress-wrapper {

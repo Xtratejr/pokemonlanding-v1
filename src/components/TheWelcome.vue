@@ -12,11 +12,11 @@ import PokemonMagicList from './PokemonMagicList.vue'
 
 <div class="poke-main-wrapper">
   
-  <div class="kb-blog-type-grid kb-mg-top-3">
+  <div class="kb-blog-type-grid kb-mg-top-">
     <div class="first">
       <ul>
         <li>
-          <div class="poke-card-link">
+          <div class="poke-card-link kb-mg-bottom-2">
             <a>
               <div>
                 <img src="/img/pk-scarlet-violet.jpg" alt="" />
@@ -53,7 +53,7 @@ import PokemonMagicList from './PokemonMagicList.vue'
           <div class="poke-card-link">
             <a>
               <div>
-                <img src="" alt="" />
+                <img src="/img/euic.jpg" alt="" />
               </div>
               <div>
                 <h2>
