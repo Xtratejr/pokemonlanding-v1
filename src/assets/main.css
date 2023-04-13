@@ -19,6 +19,7 @@ ul {
 
 /* Pokemon Classes - by Vic */
 body, html {
+  background-color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -109,6 +110,16 @@ body, html {
   font-weight: bold;
 }
 
+.first li:not(:first-child) .poke-card-link a div:nth-child(1) {
+  max-height: 183px;
+  overflow: hidden;
+}
+
+.second .poke-card-link a div:nth-child(1) {
+  max-height: 160px;
+  overflow: hidden;
+}
+
 .poke-card-link a div:nth-child(2) {
   padding: 1rem 1rem 2rem;
   height: 150px;
@@ -119,6 +130,21 @@ body, html {
 }
 
 /* Clases especiales de Vitico - Skrrt */
+.violet a div:nth-child(2) {
+  background-color: rebeccapurple;
+}
+
+.yellow a div:nth-child(2) {
+  background-color: rebeccapurple;
+}
+
+.blue a div:nth-child(2) {
+  background-color: #1a4e9d;
+}
+
+.pink a div:nth-child(2) {
+  background-color: #e476c3;
+}
 
 .kb-mg-top {
   margin-top: 1rem;
@@ -165,8 +191,13 @@ body, html {
   width: 100%;
 }
 
+.kb-blog-type-grid .first li:nth-child(2) {
+  margin-right: 1rem;
+}
+
 .kb-blog-type-grid .first li:nth-child(2), .kb-blog-type-grid .first li:nth-child(3) {
   width: 50%;
+  width: calc(50% - 0.5rem);
 }
 
 .kb-blog-type-grid .second {
@@ -184,7 +215,7 @@ body, html {
 }
 
 #app {
-  max-width: 1105px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   padding: 0;

@@ -19,7 +19,7 @@ import PokemonMagicList from './PokemonMagicList.vue'
           <div class="poke-card-link kb-mg-bottom-2">
             <a>
               <div>
-                <img src="/img/pk-scarlet-violet.jpg" alt="" />
+                <img src="/img/pokemon-violet-and-scarlet.png" alt="" />
               </div>
               <div>
                 <h2>
@@ -35,7 +35,7 @@ import PokemonMagicList from './PokemonMagicList.vue'
           </div>
         </li>
         <li>
-          <div class="poke-card-link">
+          <div class="poke-card-link pink">
             <a>
               <div>
                 <img src="/img/eui-vgc.jpg" alt="" />
@@ -69,7 +69,7 @@ import PokemonMagicList from './PokemonMagicList.vue'
     <div class="second">
       <ul>
         <li>
-          <div class="poke-card-link">
+          <div class="poke-card-link kb-mg-bottom-2 violet">
             <a>
               <div>
                 <img src="/img/typhlosion-scarlet-violet.jpg" alt="" />
@@ -84,10 +84,10 @@ import PokemonMagicList from './PokemonMagicList.vue'
           </div>
         </li>
         <li>
-          <div class="poke-card-link poke-side-card-link">
+          <div class="poke-card-link poke-side-card-link kb-mg-bottom-2 blue">
             <a>
               <div>
-                <img src="" alt="" />
+                <img src="/img/pokemon-go-2.jpeg" alt="" />
               </div>
               <div>
                 <h2>
@@ -99,10 +99,10 @@ import PokemonMagicList from './PokemonMagicList.vue'
           </div>
         </li>
         <li>
-          <div class="poke-card-link">
+          <div class="poke-card-link yellow">
             <a>
               <div>
-                <img src="" alt="" />
+                <img src="/img/pokemon-go-3.jpg" alt="" />
               </div>
               <div>
                 <h2>
